@@ -49,8 +49,6 @@ namespace PatientAssistance.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-            //TODO: Add result checking
-            //Assert.AreEqual(result, responseString);
         }
 
 
@@ -65,8 +63,6 @@ namespace PatientAssistance.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-            //TODO: Add result checking
-            //Assert.AreEqual(result, responseString);
         }
 
         [TestMethod]
@@ -80,8 +76,6 @@ namespace PatientAssistance.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
-            //TODO: Add result checking
-            //Assert.AreEqual(result, responseString);
         }
     }
 }

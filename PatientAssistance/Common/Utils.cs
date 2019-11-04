@@ -65,7 +65,6 @@ namespace PatientAssistance.Common
             var responseString = this.GetAPIResponse("http://dmmw-api.australiaeast.cloudapp.azure.com:8080/illnesses");
 
             var illnessDetails = ParseObjectDetails(responseString);
-            var illnessInnerDetails = illnessDetails.First;
 
             foreach (JToken token in illnessDetails.Children())
             {
